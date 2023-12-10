@@ -1,2 +1,2 @@
-# LethalCompanyTemplate
-A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
+# Boombox Volume Adjuster
+A mod that lets you adjust the volume of the boombox, especially useful with custom songs.
