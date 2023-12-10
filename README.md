@@ -1,2 +1,2 @@
-# LC-BoomboxVolumeAdjuster
-Mod that adds the option to change the boombox's volume (useful with custom songs)
+# LethalCompanyTemplate
+A template for a BepInEx 5 Plugin, using the correct .csproj configuration for Lethal Company modding
