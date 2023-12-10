@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace LethalCompanyTemplate.Patches
+namespace BoomboxVolumeAdjuster.Patches
 {
     internal class Config
     {

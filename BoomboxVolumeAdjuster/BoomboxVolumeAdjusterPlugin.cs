@@ -1,18 +1,14 @@
 ﻿using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using LethalCompanyTemplate.Patches;
+using BoomboxVolumeAdjuster.Patches;
 
-namespace LethalCompanyTemplate
+namespace BoomboxVolumeAdjuster
 {
-    [BepInPlugin(GUID, NAME, VERSION)]
+    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
     public class BoomboxVolumeAdjusterPlugin : BaseUnityPlugin
     {
-        public const string GUID = "com.github.YeeveX.LC-BoomboxVolumeAdjuster";
-        public const string NAME = "BoomboxVolumeAdjuster";
-        public const string VERSION = "1.0.0";
-
-        private readonly Harmony _harmony = new Harmony(GUID);
+        private readonly Harmony _harmony = new Harmony(PluginInfo.PLUGIN_GUID);
         public static BoomboxVolumeAdjusterPlugin Instance { get; private set; }
         public ManualLogSource ModLogger => Logger;
 
@@ -24,7 +20,7 @@ namespace LethalCompanyTemplate
             }
 
             // Plugin startup logic
-            Logger.LogInfo($"Plugin {GUID} is loaded!");
+            Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
 
             Patches.Config.Init();
 

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
 
-namespace LethalCompanyTemplate.Patches
+namespace BoomboxVolumeAdjuster.Patches
 {
     [HarmonyPatch(typeof(BoomboxItem))]
     internal class BoomboxVolumePatch
