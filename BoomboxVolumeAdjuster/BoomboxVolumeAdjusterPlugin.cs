@@ -8,7 +8,7 @@ namespace LethalCompanyTemplate
     [BepInPlugin(GUID, NAME, VERSION)]
     public class BoomboxVolumeAdjusterPlugin : BaseUnityPlugin
     {
-        public const string GUID = "com.github.Yeevex.LC-BoomboxVolumeAdjuster";
+        public const string GUID = "com.github.YeeveX.LC-BoomboxVolumeAdjuster";
         public const string NAME = "BoomboxVolumeAdjuster";
         public const string VERSION = "1.0.0";
 

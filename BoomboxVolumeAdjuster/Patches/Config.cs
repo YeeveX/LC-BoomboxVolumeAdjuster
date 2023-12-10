@@ -9,7 +9,7 @@ namespace LethalCompanyTemplate.Patches
 {
     internal class Config
     {
-        private const string CONFIG_FILE_NAME = "boomboxVolumeAdjuster.cfg";
+        private const string CONFIG_FILE_NAME = "yvex.boomboxVolumeAdjuster.cfg";
 
         private static ConfigFile _config;
 

@@ -1,0 +1,9 @@
+{
+  "name": "LC-BoomboxVolumeAdjuster",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/YeeveX/LC-BoomboxVolumeAdjuster",
+  "description": "A mod that lets you adjust the volume of the boombox, especially useful with custom songs.",
+  "dependencies": [
+    "BepInEx-BepInExPack-5.4.2100"
+  ]
+}

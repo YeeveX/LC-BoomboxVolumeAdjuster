@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A mod that lets you adjust the volume of the boombox")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8850d788908e1432f1294826878afaf8d6019658")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae9b0992b1f7aeab3d2d3572d86c81f599462cbe")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoomboxVolumeAdjuster")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoomboxVolumeAdjuster")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
