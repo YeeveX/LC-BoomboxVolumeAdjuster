@@ -12,3 +12,6 @@ After launching the game, open BepInEx/config/yvex.boomboxVolumeAdjuster.cfg and
 The default value is 100 (Max).
 
 If you have any performance issue, it might be helpful to set "Dont Update After Start" to true. This will require a game restart every time you want to change the boombox's volume.
+
+## Notes
+Restart the boombox after changing volume, otherwise it won't change
